@@ -14,8 +14,7 @@ import { CartContext } from "../contexts/CartContext";
 const Sidebar = () => {
   const { isOpen, handleClose } = useContext(SidebarContext);
   const { cart, clearCart, total, itemAmount } = useContext(CartContext);
-  // const {} = useContext(CartContext);
-  console.log(useContext(CartContext));
+
   return (
     <div
       className={`${
